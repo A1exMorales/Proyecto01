@@ -1,0 +1,159 @@
+body{
+    padding: 0px;
+    margin: 50px;
+    background: url("../img/inicio.jpg") no-repeat center top;
+    background-size: cover;
+    margin-top: 0px;
+}
+
+img{
+    width: 100px;
+    height:auto;
+    display:block;
+    border-radius: 15px;
+
+}
+nav{
+
+display: flex;
+background-color:blue;
+width:100%;
+height:90%;
+margin: 0 25px;
+border-radius: 15px;
+text-align: center;
+box-shadow: 0px 5px 20px rgba(0,0,0,0.7) ;
+
+
+
+}
+h2{
+    color: white;
+}
+a{
+color:wheat;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 150%;
+
+
+}
+nav ul{
+text-align:center;
+list-style-type:none;
+transform:translateX(500px)
+
+}
+nav ul li{
+
+    display: inline-block;
+    padding: 0 5px;
+    list-style-type: none;
+    transition: 0.5s ease-in-out;
+}
+nav li a{
+text-decoration: none;
+}
+nav li:hover{
+    padding: 10px;
+    background:blue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.7);
+
+
+}
+
+main{
+    display:flex;
+     
+}
+section{
+    width: 900px;
+    height:490px;
+    background-color:white;
+    margin-top: 25px;
+    margin-left: 70px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.7);
+    
+
+}
+section video{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.navegacion{
+    width: 185px;
+    height:490px;
+    background:rgba(0, 0, 3, 0.5); 
+    margin-top: 25px;
+    margin-left: 60px;  
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.7);
+}
+.navegacion ul{
+    list-style:none;
+}
+.menu{
+transform: translateX(-35px);
+
+}
+
+.menu > li{
+    position: relative;
+    
+   
+    
+   
+}
+.menu > li > a{
+   
+   color:white;
+   font-family:arial;
+   text-decoration: none;
+} 
+.menu li a:hover{
+   
+    background:rgba(0, 0, 3, 0.5); 
+   border-radius: 15px;
+   box-shadow: 0px 5px 20px rgba(0,0,0,0.7);
+   transition: all 0.5s;  
+   
+
+
+
+}
+.submenu{
+
+    background:rgba(0, 0, 3, 0.5); 
+    position: absolute;
+    width: 130%;
+    display:none;
+}
+
+.submenu li > a{
+
+    display:block;
+    padding:15px;
+    color:white;
+    font-family:arial;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.menu li:hover .submenu{
+ display: block; 
+ border-radius: 15px;
+
+
+}
+footer{
+    
+    margin-top: 60px;
+    background:rgba(0, 0, 3, 0.5); 
+    color:white;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,28 @@
+body{
+
+    padding: 0px;
+    margin: 50px;
+    background: url("../img/historia.jpg") no-repeat center top;
+    background-size: cover;
+    margin-top: -2px;
+}
+.historia{
+    width: 600px;
+    height: 000px;
+    text-align:justify;
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+#his{
+ margin-left: 240px;
+
+}
+.hist{
+    background:rgba(0, 0, 3, 0.5); 
+     display:flex;
+     border-radius: 15px;
+     color: #fff;
+
+
+}

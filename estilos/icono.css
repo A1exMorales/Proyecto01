@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.contenedor{
+    
+    margin:auto;
+    display: flex;
+    
+}
+.a1{
+    width: 20px;
+    height: 20px;
+    
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+margin-left: 300px;
+    font-size: 100px;
+    transition: 0.3s ease all;
+    text-decoration: none;
+}
+.a1:hover{
+    
+    color:blue;
+    box-shadow: 3px 3px 50px rgba(0,0,0,.15);
+}
+.a2{
+    
+    
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 100px;
+    font-size: 100px;
+    transition: 0.3s ease all;
+    text-decoration: none;
+}
+.a2:hover{
+    
+    color:green;
+    box-shadow: 3px 3px 50px rgba(0,0,0,.15);
+}
